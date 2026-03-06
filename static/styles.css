@@ -1,0 +1,111 @@
+/* =========================
+   Westridge + D&D Theme
+   ========================= */
+
+/* Westridge inspired colors */
+:root {
+  --westridge-maroon: #7a1c2e;
+  --westridge-dark: #4a0f1c;
+  --westridge-gold: #d4a94f;
+  --parchment: #f4efe3;
+}
+
+
+/* Page styling */
+
+body {
+  font-family: "Georgia", serif;
+  background: var(--parchment);
+  margin: 0;
+  padding: 40px;
+  color: #222;
+}
+
+
+/* Title */
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  color: var(--westridge-maroon);
+  margin-bottom: 30px;
+  letter-spacing: 2px;
+}
+
+
+/* Search controls */
+
+#controls {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+
+input {
+  padding: 10px;
+  border: 2px solid var(--westridge-maroon);
+  border-radius: 6px;
+  font-size: 16px;
+  width: 250px;
+}
+
+
+/* Buttons */
+
+button {
+  background: var(--westridge-maroon);
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background: var(--westridge-dark);
+}
+
+
+/* Character grid */
+
+#characterContainer {
+  max-width: 700px;
+  margin: auto;
+}
+
+
+/* Character cards */
+
+.character-card {
+  background: white;
+  border-left: 6px solid var(--westridge-gold);
+  border-radius: 6px;
+  padding: 16px;
+  margin-bottom: 16px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+
+.character-card h3 {
+  margin: 0;
+  color: var(--westridge-maroon);
+  font-size: 1.4rem;
+}
+
+.character-card p {
+  margin: 6px 0 0 0;
+  color: #444;
+}
+
+
+/* Decorative divider */
+
+hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin-top: 10px;
+}
